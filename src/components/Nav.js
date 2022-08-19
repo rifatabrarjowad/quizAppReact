@@ -1,8 +1,18 @@
+import Account from "./Account";
+
 function Nav() {
     return (
-        <div className="App">
-            <h1>Hello World</h1>
-        </div>
+        <nav className="nav">
+            <ul>
+                <li>
+                    <a href="index.html" className="brand">
+                        <img src="./images/logo-bg.png" alt="Learn with Sumit Logo"/>
+                        <h3>Learn with Sumit</h3>
+                    </a>
+                </li>
+            </ul>
+           <Account />
+        </nav>
     );
 }
 
