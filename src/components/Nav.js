@@ -1,8 +1,8 @@
 import Account from "./Account";
-
+import classes from "../css/Nav.module.css";
 function Nav() {
     return (
-        <nav className="nav">
+        <nav className={classes.nav}>
             <ul>
                 <li>
                     <a href="index.html" className="brand">
