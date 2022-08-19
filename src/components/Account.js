@@ -1,6 +1,10 @@
+import classes from '../css/Account.module.css';
 function Account() {
+
+
+
     return (
-        <div className="account">
+        <div className={classes.account}>
         <span className="material-icons-outlined" title="Account">
           account_circle
         </span>
