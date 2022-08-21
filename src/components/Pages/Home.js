@@ -1,9 +1,17 @@
+import Video from "../Video";
 
 function Home() {
     return (
-        <div>
-            <h1>Hello</h1>
-        </div>
+        <Video />
+        <Video/>
+        <Video/>
+        <Video/>
+        <Video/>
+        <Video/>
+        <Video/>
+        <Video/>
+        <Video/>
+        <Video/>
     );
 }
 
