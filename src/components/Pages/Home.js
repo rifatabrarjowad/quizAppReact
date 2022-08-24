@@ -1,17 +1,10 @@
-import Video from "../Video";
+import Videos from "../Videos";
 
 function Home() {
     return (
-        <Video />
-        <Video/>
-        <Video/>
-        <Video/>
-        <Video/>
-        <Video/>
-        <Video/>
-        <Video/>
-        <Video/>
-        <Video/>
+
+        <Videos />
+
     );
 }
 
